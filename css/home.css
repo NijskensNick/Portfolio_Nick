@@ -1,0 +1,20 @@
+.home_content_qr {
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+    border: 2px black solid;
+    border-radius: 25px;
+    width: 10%;
+    padding: 20px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.qr_title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+}

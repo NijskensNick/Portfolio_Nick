@@ -1,0 +1,44 @@
+.history_item {
+    display: flex;
+    justify-content: center;
+}
+
+.history_item_title {
+    background-color: green;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    border-radius: 20px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: 200;
+
+}
+
+.history_item_place {
+    background-color: greenyellow;
+    padding: 3px 15px 3px 15px;
+    border-radius: 20px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: 200;
+    align-self: center;
+}
+
+.history_item_timeline {
+    background-color: greenyellow;
+    padding: 3px 15px 3px 15px;
+    border-radius: 20px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: 200;
+    align-self: center;
+}
+
+.history_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

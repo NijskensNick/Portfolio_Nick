@@ -1,0 +1,104 @@
+.hobbies_content_box {
+    background-color: green;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 2px solid black;
+
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hobbies_image_mtg {
+    width: 30%;
+    border-radius: 20px;
+    border: 2px black solid;
+    margin: 5%;
+}
+
+.hobbies_option_information {
+    display: flex;
+    align-self: center;
+    background-color: greenyellow;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    border-radius: 30px;
+    border: 2px solid black;
+    margin: 2%;
+}
+
+.hobbies_option {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hobbies_option_title {
+    display: flex;
+    justify-content: center;
+
+    background-color: greenyellow;
+    padding: 10px;
+    scale: 110%;
+    width:fit-content;
+    align-self: center;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+
+    border-radius: 20px;
+    border: 2px solid black;
+
+    cursor: pointer;
+}
+
+.hobbies_title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.hobbies_text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: large;
+}
+
+.hobbies_images_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.hobbies_option_wrapper {
+    display: none;
+}
+
+.hobbies_image_gaming {
+    border-radius: 10px;
+    margin: 2%;
+}
+
+.hobbies_image_kat {
+    width: 90%;
+    margin: 5%;
+    border-radius: 20px;
+}
+
+.hobbies_image_enigma {
+    width: 90%;
+    margin: 5%;
+    border-radius: 20px;
+}
+
+.hobbies_image_festival {
+    width: 300px;
+    border-radius: 50px;
+    margin: 2%;
+}

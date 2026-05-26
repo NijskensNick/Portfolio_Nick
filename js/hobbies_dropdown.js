@@ -14,7 +14,7 @@ window.onload = () => {
             states.mtg_state = !states.mtg_state;
             if(states.mtg_state)
             {
-                document.getElementById("mtg_wrapper").style.display = 'block';
+                document.getElementById("mtg_wrapper").style.display = 'flex';
             }
             else
             {
@@ -26,7 +26,7 @@ window.onload = () => {
             states.gaming_state = !states.gaming_state;
             if(states.gaming_state)
             {
-                document.getElementById("gaming_wrapper").style.display = 'block';
+                document.getElementById("gaming_wrapper").style.display = 'flex';
             }
             else {
                 document.getElementById("gaming_wrapper").style.display = 'none';
@@ -37,7 +37,7 @@ window.onload = () => {
             states.judo_state = !states.judo_state;
             if(states.judo_state)
             {
-                document.getElementById("judo_wrapper").style.display = 'block';
+                document.getElementById("judo_wrapper").style.display = 'flex';
             }
             else {
                 document.getElementById("judo_wrapper").style.display = 'none';
@@ -48,7 +48,7 @@ window.onload = () => {
             states.kat_state = !states.kat_state;
             if(states.kat_state)
             {
-                document.getElementById("kat_wrapper").style.display = 'block';
+                document.getElementById("kat_wrapper").style.display = 'flex';
             }
             else {
                 document.getElementById("kat_wrapper").style.display = 'none';
@@ -59,7 +59,7 @@ window.onload = () => {
             states.enigma_state = !states.enigma_state;
             if(states.enigma_state)
             {
-                document.getElementById("enigma_wrapper").style.display = 'block';
+                document.getElementById("enigma_wrapper").style.display = 'flex';
             }
             else {
                 document.getElementById("enigma_wrapper").style.display = 'none';
@@ -70,7 +70,7 @@ window.onload = () => {
             states.festival_state = !states.festival_state;
             if(states.festival_state)
             {
-                document.getElementById("festival_wrapper").style.display = 'block';
+                document.getElementById("festival_wrapper").style.display = 'flex';
             }
             else {
                 document.getElementById("festival_wrapper").style.display = 'none';

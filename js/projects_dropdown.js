@@ -12,7 +12,7 @@ window.onload = () => {
             states.fermata_state = !states.fermata_state;
             if(states.fermata_state)
             {
-                document.getElementById("fermata_wrapper").style.display = 'block';
+                document.getElementById("fermata_wrapper").style.display = 'flex';
             }
             else
             {
@@ -24,7 +24,7 @@ window.onload = () => {
             states.biomodd_state = !states.biomodd_state;
             if(states.biomodd_state)
             {
-                document.getElementById("biomodd_wrapper").style.display = 'block';
+                document.getElementById("biomodd_wrapper").style.display = 'flex';
             }
             else {
                 document.getElementById("biomodd_wrapper").style.display = 'none';
@@ -35,7 +35,7 @@ window.onload = () => {
             states.artstation_state = !states.artstation_state;
             if(states.artstation_state)
             {
-                document.getElementById("artstation_wrapper").style.display = 'block';
+                document.getElementById("artstation_wrapper").style.display = 'flex';
             }
             else {
                 document.getElementById("artstation_wrapper").style.display = 'none';
@@ -46,7 +46,7 @@ window.onload = () => {
             states.itch_state = !states.itch_state;
             if(states.itch_state)
             {
-                document.getElementById("itch_wrapper").style.display = 'block';
+                document.getElementById("itch_wrapper").style.display = 'flex';
             }
             else {
                 document.getElementById("itch_wrapper").style.display = 'none';

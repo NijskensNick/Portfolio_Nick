@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: green;
+    background-color: #80ffae;
 }
 
 .navigation_wrapper {
@@ -25,6 +25,7 @@ body {
 .navigation_item:hover {
     border: 2px black solid;
     background-color: lightgray;
+    color: black;
     transition: 0.3s;
 }
 
@@ -36,8 +37,8 @@ body {
 }
 
 .active {
-    background-color: white;
-    border: 2px black solid;
+    background-color: green;
+    color: white;
 }
 
 .content_wrapper {

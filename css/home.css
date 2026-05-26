@@ -1,10 +1,9 @@
 .home_content_qr {
     display: flex;
     flex-direction: column;
-    background-color: greenyellow;
-    border: 2px black solid;
+    background-color: #80ffae;
     border-radius: 25px;
-    width: 30%;
+    width:15%;
     padding: 20px;
     justify-content: center;
     text-decoration: none;
@@ -78,6 +77,7 @@
     width: fit-content;
     scale: 130%;
     border-radius: 40px;
+    margin: 2px;
 
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 100;

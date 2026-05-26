@@ -1,12 +1,13 @@
 .projects_content_box {
-    background-color: green;
+    /*background-color: green;*/
+    border: #80ffae solid 15px;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5%;
     margin-bottom: 5%;
-    border: 2px solid black;
+    padding: 5px;
 
-    border-radius: 20px;
+    border-radius: 25px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -32,9 +33,14 @@
     font-weight: 100;
 
     border-radius: 20px;
-    border: 2px solid black;
 
     cursor: pointer;
+}
+
+.projects_option_title:hover {
+    background-color: #80ffae;
+    color: black;
+    transition: 0.3s;
 }
 
 .projects_option_information {
@@ -46,7 +52,6 @@
     width: 90%;
     height: auto;
     border-radius: 30px;
-    border: 2px solid black;
     margin: 2%;
 }
 
@@ -77,4 +82,5 @@
 
 .projects_option_wrapper {
     display: none;
+    justify-content: center;
 }

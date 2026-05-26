@@ -4,7 +4,6 @@
     margin-right: 10%;
     margin-top: 5%;
     margin-bottom: 5%;
-    border: 2px solid black;
 
     border-radius: 20px;
     display: flex;
@@ -15,7 +14,6 @@
 .hobbies_image_mtg {
     width: 30%;
     border-radius: 20px;
-    border: 2px black solid;
     margin: 5%;
 }
 
@@ -28,7 +26,6 @@
     width: 90%;
     height: auto;
     border-radius: 30px;
-    border: 2px solid black;
     margin: 2%;
 }
 
@@ -52,9 +49,14 @@
     font-weight: 100;
 
     border-radius: 20px;
-    border: 2px solid black;
 
     cursor: pointer;
+}
+
+.hobbies_option_title:hover {
+    background-color: #80ffae;
+    color: black;
+    transition: 0.3s;
 }
 
 .hobbies_title {
@@ -78,6 +80,7 @@
 
 .hobbies_option_wrapper {
     display: none;
+    justify-content: center;
 }
 
 .hobbies_image_gaming {

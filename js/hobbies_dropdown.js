@@ -3,7 +3,6 @@ window.onload = () => {
          mtg_state = false;
          gaming_state = false;
          judo_state = false;
-         kat_state = false;
          enigma_state = false;
          festival_state = false;
     }
@@ -41,17 +40,6 @@ window.onload = () => {
             }
             else {
                 document.getElementById("judo_wrapper").style.display = 'none';
-            }
-        })
-
-        document.getElementById("kat_button").addEventListener("click", () => {
-            states.kat_state = !states.kat_state;
-            if(states.kat_state)
-            {
-                document.getElementById("kat_wrapper").style.display = 'flex';
-            }
-            else {
-                document.getElementById("kat_wrapper").style.display = 'none';
             }
         })
 

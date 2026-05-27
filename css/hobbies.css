@@ -1,5 +1,7 @@
 .hobbies_content_box {
-    background-color: green;
+    /*background-color: green;*/
+    
+    border: #80ffae solid 15px;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5%;

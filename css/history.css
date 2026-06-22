@@ -55,3 +55,36 @@
     color: white;
     text-decoration: none;
 }
+
+@media (max-width: 1250px){
+    .history_item{
+        flex-direction: column;
+    }
+
+    .history_item_title{
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+
+    .history_item_timeline{
+        margin-bottom: 0%;
+        margin-top: 1%;
+    }
+
+    .history_item_place{
+        margin-bottom: 0%;
+        margin-top: 1%;
+    }
+
+    .history_item_link{
+        margin-bottom: 0%;
+        margin-top: 1%;
+    }
+    
+    .history_item{
+        margin-bottom: 5%;
+        margin-top: 5%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}

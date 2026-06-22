@@ -84,3 +84,20 @@
     display: none;
     justify-content: center;
 }
+
+@media (max-width: 1250px) {
+    .projects_content_box {
+        border: #80ffae solid 5px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .projects_text{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .projects_link {
+        margin-bottom: 5%;
+    }
+}
